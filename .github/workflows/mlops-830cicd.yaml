@@ -45,7 +45,7 @@ jobs:
         docker push ${{ secrets.DOCKER_USERNAME }}/anil-mlops830ui:latest
 
   # =============================
-  # JOB 2: Deploy to Kubernetes
+  # JOB 2: Deploy to Kubernetes C1
   # =============================
   deploy:  
     name: Deploy to Kubernetes
